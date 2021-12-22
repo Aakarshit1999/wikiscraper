@@ -1,7 +1,7 @@
 const request = require('request');
 console.log("before");
 
-request('http://www.google.com', cb);
+request('https://en.wikipedia.org/wiki/A#History', cb);
 console.log("after");
 function cb(error, response, html) {
     console.error('error:', error); // Print the error if one occurred
